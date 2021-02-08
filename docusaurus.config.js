@@ -1,6 +1,6 @@
 module.exports = {
   title: "React Formik Wizard",
-  tagline: "",
+  tagline: "Build Dynamic Forms Quickly with React, JSON and Formik!",
   url: "https://fatmali.github.io",
   baseUrl: "/react-formik-wizard/",
   onBrokenLinks: "throw",
@@ -12,8 +12,9 @@ module.exports = {
     navbar: {
       title: "React Formik Wizard",
       logo: {
-        alt: "",
+        alt: "Logo",
         src: "img/logo.svg",
+        href: "/docs/",
       },
       items: [
         {
