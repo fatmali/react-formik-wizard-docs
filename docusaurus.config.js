@@ -2,7 +2,7 @@ module.exports = {
   title: "React Formik Wizard",
   tagline: "",
   url: "https://fatmali.github.io",
-  baseUrl: "/",
+  baseUrl: "react-formik-wizard/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.svg",
@@ -22,7 +22,6 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Playground", position: "left" },
         {
           href: "https://github.com/fatmali/react-formik-wizard",
           label: "GitHub",
@@ -32,35 +31,6 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
-            {
-              label: "Icons made by Freepik from FlatIcon",
-              href:
-                'https://www.flaticon.com/',
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} React Formik Wizard, Inc. Built with Docusaurus.`,
     },
   },
@@ -74,12 +44,12 @@ module.exports = {
           editUrl:
             "https://github.com/fatmali/react-formik-wizard/edit/gh-pages/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/fatmali/react-formik-wizard/edit/gh-pages/blog/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     "https://github.com/fatmali/react-formik-wizard/edit/gh-pages/blog/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
