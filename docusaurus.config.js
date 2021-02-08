@@ -2,7 +2,7 @@ module.exports = {
   title: "React Formik Wizard",
   tagline: "",
   url: "https://fatmali.github.io",
-  baseUrl: "react-formik-wizard/",
+  baseUrl: "/react-formik-wizard/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.svg",
